@@ -17,11 +17,9 @@
   <body>
     <header>
       <div class="navbar">
-
         <div class="nav-logo border">
           <div class="logo"></div>
         </div>
-
 
         <div class="nav-address border">
           <p class="add-first">Deliver to</p>
@@ -31,25 +29,37 @@
           </div>
         </div>
 
-
         <div class="nav-search border">
-            <select class="search-select">
-                <option value="">All</option>
-            </select>
-            <input  class="search-input" type="text" placeholder="Search Amazon">
-            <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+          <select class="search-select">
+            <option value="all">All</option>
+            <option value="categories">All Categories</option>
+            <option value="device">Amazon devices</option>
+            <option value="Fashion">Amazon Fashion</option>
+            <option value="Appliance">Appliances</option>
+            <option value="Baby">Baby</option>
+            <option value="Beauty">Beauty</option>
+          </select>
+          <input class="search-input" type="text" placeholder="Search Amazon" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
         </div>
 
-
-        <div class="nav-signin">
-            <p><span>Hello, sign in</span></p>
-            <p class="nav-second">Accounts & Lists</p>
+        <div class="nav-signin border">
+          <p><span>Hello, sign in</span></p>
+          <p class="nav-second">Accounts & Lists</p>
         </div>
 
+        <div class="nav-return border">
+          <p><span>Returns</span></p>
+          <p class="nav-second">& Orders</p>
+        </div>
+
+        <div class="nav-cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+        </div>
       </div>
-
     </header>
   </body>
 </html>
