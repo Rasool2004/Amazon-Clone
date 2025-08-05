@@ -4,21 +4,47 @@
   border: border-box;
 }
 
-.navbar{
-    height: 60px;
-    background-color: #0F1111;
-    color:white;
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items:center;
 }
 
-
-.nav-logo{
-    height:50px;
-    width:100px;
+.nav-logo {
+  height: 50px;
+  width: 100px;
 }
 
-.logo{
-    background-image: url("amazon_logo.png");
-    background-size: cover;
-    height:50px;
-    width:100%;
+.logo {
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 2px solid white;
+}
+
+/* box 2 */
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+
+.add-second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
 }
